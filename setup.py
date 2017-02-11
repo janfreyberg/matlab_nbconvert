@@ -12,7 +12,7 @@ setup(
     description='An exporter for matlab-based jupyter notebooks',
     long_description=readme,
     url='https://github.com/janfreyberg/matlab_nbconvert',
-    download_url='https://github.com/peterldowns/mypackage/tarball/0.1',
+    download_url='https://github.com/janfreyberg/matlab_nbconvert/tarball/0.1',
     # Author details
     author='Jan Freyberg',
     author_email='jan.freyberg@gmail.com',
