@@ -12,14 +12,15 @@ setup(
     description='An exporter for matlab-based jupyter notebooks',
     long_description=readme,
     url='https://github.com/janfreyberg/matlab_nbconvert',
+    download_url='https://github.com/peterldowns/mypackage/tarball/0.1',
     # Author details
     author='Jan Freyberg',
     author_email='jan.freyberg@gmail.com',
     license='MIT',
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: Users',
-        'Topic :: Software Development :: Build Tools',
+        'Intended Audience :: Science/Research',
+        'Topic :: Software Development :: Code Generators',
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
         # Only the following because these work w/ matlab kernel
