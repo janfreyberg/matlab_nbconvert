@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/matlab_nbconvert.svg)](https://badge.fury.io/py/matlab_nbconvert)
+
 # matlab_nbconvert
 
 This is an exporter for `nbconvert` that turns matlab-notebooks into neatly formatted matlab (`.m`) files. You need to have `nbconvert` installed.
