@@ -3,16 +3,20 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-with open('README.md', 'r') as f:
-    readme = f.read()
+readme = 'An exporter for matlab-based jupyter notebooks'
+if path.isfile('README.md'):
+    readme = open('README.md', 'r').read()
+
+version = '0.3'
 
 setup(
     name='matlab_nbconvert',
-    version='0.2',
+    version=version,
     description='An exporter for matlab-based jupyter notebooks',
     long_description=readme,
     url='https://github.com/janfreyberg/matlab_nbconvert',
-    download_url='https://github.com/janfreyberg/matlab_nbconvert/tarball/0.2',
+    download_url='https://github.com/janfreyberg/matlab_nbconvert/tarball/' +
+        version,
     # Author details
     author='Jan Freyberg',
     author_email='jan.freyberg@gmail.com',
