@@ -20,7 +20,9 @@ class MatlabExporter(TemplateExporter):
     def _file_extension_default(self):
         return '.m'
 
-    template_path = ['.', os.path.join(os.path.dirname(__file__), "templates")]
+    @default('default_template_path')
+    def _default_template_path_default(self):
+        return os.path.join(os.path.dirname(__file__), "templates")
 
     @default('template_file')
     def _template_file_default(self):
